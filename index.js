@@ -7,7 +7,6 @@ const { find_decoder } = require("./src/decoder");
 
 function deobfuscate(input) {
 	input = fs.readFileSync(input, "utf8")
-	input = input.replace(/1\.toString\(-1\)/g, "");
     const ast = parser.parse(input);
     const state = {
         decoder: find_decoder(ast),
