@@ -1,6 +1,7 @@
 # Deobfuscator
 Tested on twitch.tv [p.js](https://k.twitchcdn.net/149e9513-01fa-4fb0-aad4-566afd725d1b/2d206a39-8ed7-437e-a3be-862e0f06eea3/p.js) 
 
+i might reverse engineer the ips.js and the kasada values in the future 🤷‍♂️
 ![preview](https://dexv.online/content/cdn/buytYqspRcgF.png)
 
 Usage:
